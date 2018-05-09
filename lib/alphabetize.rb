@@ -5,4 +5,5 @@ def alphabetize(arr)
   arr.sort_by do |x|
     x.tr(ESPERANTO_ALPHABET,ascii)
   end
+  
 end
