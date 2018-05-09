@@ -1,9 +1,9 @@
 def alphabetize(arr)
   # code here
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esperanton = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
   arr.sort_by do |x|
-    x.tr(ESPERANTO_ALPHABET,ascii)
+    x.tr(esperanton,ascii)
   end
-  
+
 end
